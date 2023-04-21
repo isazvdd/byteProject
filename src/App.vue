@@ -10,19 +10,19 @@
 <script>
 export default {
   methods: {
-    trocarTela() {
+    switchScreen() {
       setTimeout(() => {
         this.$router.push("/forum");
       }, 2000)
     },
   },
   mounted() {
-    this.trocarTela();
+    this.switchScreen();
   },
 }
 </script>
 
-<style>
+<style >
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600;700&display=swap');
 
 * {

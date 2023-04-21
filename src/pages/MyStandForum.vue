@@ -1,17 +1,23 @@
 <template>
   <div class="container">
-    <h1>testando rotas</h1>
+    <MyHeader />
+
   </div>
 </template>
 
 <script>
+import MyHeader from "@/components/MyHeader.vue";
+
 export default {
+  components: {
+    MyHeader,
+  },
 };
 </script>
 
 <style scoped>
-.container {
+/* .container {
   height: 100vh;
   background-color: #1E1E1E;
-}
+} */
 </style>
