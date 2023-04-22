@@ -52,7 +52,6 @@ export default {
   background: #191622;
   box-shadow: 0px 2px 4px rgba(255, 121, 198, 0.25);
   border-radius: 4px;
-
 }
 
 .inputText {
@@ -74,6 +73,13 @@ export default {
   display: flex;
   align-items: center;
   text-transform: lowercase;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  color: #fff;
 }
 
 .search {
