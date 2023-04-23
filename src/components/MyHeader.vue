@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <section class="user">
-      <img src="../assets/avatar.png" alt="Imagem de perfil" class="picture" />
+      <img src="@/assets/avatar.png" alt="Imagem de perfil" class="picture" />
       <p class="name">Lilia</p>
     </section>
     <section class="input">

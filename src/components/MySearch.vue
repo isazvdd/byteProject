@@ -22,6 +22,7 @@ export default {
 
   background: #191622;
   border-radius: 4px;
+  margin: 18px 33px auto 32px;
 }
 
 .input {
